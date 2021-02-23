@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace HW2_1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+           
+            Console.Write($"максимальная температура за сутки:" );
+            double tmx = Int32.Parse(Console.ReadLine());
+
+            Console.Write("Миниимальная температура за сутки:");
+            double tmn = Int32.Parse(Console.ReadLine());
+
+           Console.WriteLine($" Cреднесуточная температура: {(tmx + tmn) / 2}"); 
+            Console.Read();
+
+            }
+    }
+}
